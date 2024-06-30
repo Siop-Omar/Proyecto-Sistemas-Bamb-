@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); 
+@font-face {
+    font-family: "Bubbler";
+    src: url(../font/BubblerOne-Regular.ttf);
+}
+@font-face {
+    font-family: "Grunge";
+    src: url(../font/Grunge-Social-Media.ttf);
+}
+@font-face {
+    font-family: "Chilanka";
+    src: url(../font/Chilanka-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-size: 0px;
+}
+#inicio{
+    background-color: #000;
+    height: 100vh;
+}
+#titulos{
+    width: 100%;
+    height: 100vh;
+    vertical-align: top;
+    overflow: hidden;
+    background: url(../Imagenes/tronco-bambu-verde-fondo-oscuro_862994-210107.jpg) no-repeat 30% 30%;
+    background-size: cover;
+    text-align: center;
+    padding: 25vh 100px;
+    color: #fff;
+}
+h4{
+    font-family: 'Open Sans', cursive;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+#tendencia{
+    font-family: 'Open Sans', cursive;
+    font-size: 4.5rem;
+    margin-bottom: 30px;
+}
+h3{
+    font-family: 'Open Sans', cursive;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+}
+#principal{
+    height: 100vh;
+}
+    nav{
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+        text-align: center;
+        
+    }
+        a{
+            background-color: rgba(23, 45, 30, 0.5);
+            font-family: 'Open Sans', cursive;
+            font-size: 1.4rem;
+            color: #fff;
+            display: inline-block;
+            padding: 10px;
+            letter-spacing: 2px;
+            text-decoration: none;
+            width: 29%;
+            translate: 0 200px;       
+        }
+        a:hover{
+            font-weight: 600;
+            position: center;
+            font-weight: bolder;
+        }
+        .contenedor{
+            text-align: center;
+            padding: 70px;
+        }
+/* Tendencias */
+
+
+.titulo{
+    font-family: 'Open Sans',cursive;
+    color: #000000;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 4rem;
+    margin-bottom: 60px;
+    margin-top: 10%;
+    text-align: center;
+    translate: 0 -135px;
+}
+figure, #concepto_bambu{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+#img_Bambu{
+    width: 85%;
+    margin: 50px;
+    float: left;
+    translate: 0 -150px;
+
+}
+p::first-letter{
+    font-size: 2.5rem;
+    float: left;
+    margin-right: 5px;
+    margin-top: -5px;
+}
+fieldset{
+    width: 90%;
+    font-size: 1rem;
+    color: #000000;
+    font-family: 'Open Sans', cursive;
+    padding: 20px;
+    font-size:20px;
+    translate: 0 -150px;
+}
+#text{
+    color: #000;
+    font-size: 1rem;
+    font-family: 'Permanent Market', cursive;
+    display: inline-block;
+    width: 26%;
+    margin-left: 80px;
+    translate: 0 -120px;
+}
+#parr{
+    color: #000;
+    font-size: 1rem;
+    font-family: 'Permanent Market', cursive;
+    display: inline-block;
+    width: 26%;
+    margin-left: 80px;
+    translate: 0 -120px;
+
+    
+}
+#tod{
+     
+    color: #000;
+    font-size: 1rem;
+    font-family: 'Permanent Market', cursive;
+    display: inline-block;
+    width: 25%;
+    margin-left: 80px;
+    translate: 0 -100px;
+}
+#fondo{
+background: url(../Imagenes/bambú.jpg) no-repeat fixed;
+background-size: cover;
+height: 110vh;
+}
+h3{
+    font-size: 4rem;
+    font-family: Chilanka, cursive;
+    text-align: center;
+    translate: 0 330px;
+}
+#info{
+    color: #000;
+}
+#medios{
+    background-color: #7fffd4;
+    height: 90%;
+}
+#goebo{
+    font-size: 4.5rem;
+    font-family: 'open sans';
+    color: #000;
+    text-align: center;
+}
+
+#infox{
+    font-size: 1rem;
+    font-family: 'open sans';
+    color: #000;
+    text-align: center;
+}
+#img_1{
+    width: 33%;
+    height: 400px;
+   padding: 26px 26px;
+   padding-bottom: 40px;
+}
+#Ubicacion{
+    
+    background: url(../Imagenes/bambú.jpg) no-repeat fixed;
+    background-size: cover;
+     height: 80vh;
+}
+#titu{
+    color: #fff;
+  font-family: Chilanka, Cursive;
+  font-size: 3rem;
+  text-align: center;
+  translate: 0 60px;
+}
+#mapa{
+    margin-top: 60px;
+    width: 100%;
+    height: 300px;
+    translate: 0 100px;
+}
+#final{
+    background-color: #fff;
+    height: 100px;
+}
+footer {
+    background-color: #00ede9;
+    height: 22vh;
+}
+#rs {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 50px;
+    transform: translate(0, -160px);
+}
+#iconox {
+    font-size: 3rem;
+    font-family: 'Grunge', cursive;
+}
+#derechos {
+    font-size: 1rem;
+    color: #fff;
+    font-family: 'Open Sans', cursive;
+    text-align: right;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 50px;
+}
